@@ -82,3 +82,5 @@
 - Display the user’s information on the Profile Page.
 - Show the user’s username and ranking on the Leaderboard Page.
 --------------------------------------------------------
+<img width="1920" height="1080" alt="Home" src="https://github.com/user-attachments/assets/6774ebdc-9c0e-4b2a-9d1d-ff0bf7495226" />
+
