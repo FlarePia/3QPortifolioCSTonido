@@ -45,3 +45,40 @@
 - Active page is highlighted
 - Smooth transition animations when changing pages
 --------------------------------------------------------
+
+
+
+# 3rd Qtr Update Proposal
+
+### What kind of HTML will we use and how will we use it?
+
+- Our website will use a Login/Sign-up HTML Form that appears automatically as you open the website
+- This form is for users to be able to access the website and to customize their profile later on
+- There will also be a choice for users to check the “Remember Me” box to save login information.
+--------------------------------------------------------
+
+### Purpose of the HTML Form:
+- Identify users who are using the website.
+- Save the user’s information on their computer.
+- Enable users to customize their profile and be on the leaderboard for the minigames.
+--------------------------------------------------------
+
+### What information will the HTML Form collect?
+- Username
+- Password
+- Email
+- Favorite Unstable Universe Character
+--------------------------------------------------------
+
+### How will the data be saved?
+- The user’s data will be saved on their computer using JavaScript: localStorage
+- When the user logs in, their username, password, and email address will be stored locally
+- One thing to note is that since this website is made by us (simply Grade 9 Students), we do not have the capacity to create a website that can securely store passwords
+- So the way these information are stored are for educational purposes only, and show how these data will be used across other pages.
+- The login page will no longer reappear unless the user logs out or the user does not press the “Remember Me” box.
+--------------------------------------------------------
+
+### How will the data be used?
+- Display the user’s information on the Profile Page.
+- Show the user’s username and ranking on the Leaderboard Page.
+--------------------------------------------------------
