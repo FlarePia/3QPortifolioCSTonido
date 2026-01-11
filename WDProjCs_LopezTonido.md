@@ -82,5 +82,41 @@
 - Display the user’s information on the Profile Page.
 - Show the user’s username and ranking on the Leaderboard Page.
 --------------------------------------------------------
+
+
 <img width="1920" height="1080" alt="Home" src="https://github.com/user-attachments/assets/6774ebdc-9c0e-4b2a-9d1d-ff0bf7495226" />
+
+## 1. Login Page (Form Page & Data Collection)
+- Appears automatically after opening the website.
+- Contains the HTML Form.
+- Saves the user’s data in localStorage.
+- Redirects the user to the home page after login/sign-up.
+--------------------------------------------------------
+
+Profile Picture Pop Up:
+<img width="1920" height="1080" alt="Home (3)" src="https://github.com/user-attachments/assets/919b11ab-0cdf-4374-b63e-586e814fe8ea" />
+
+Profile Editor:
+<img width="1920" height="1080" alt="Home (1)" src="https://github.com/user-attachments/assets/3938a773-284f-4b08-91ee-ea70d5d40539" />
+
+## 2. Profile Page (Uses the collected data)
+- Opens in a new tab.
+- First shows choices of profile pictures (that can be changed in the future).
+- Once saved, website uses saved user data to display their username, favorite unstable universe character, and let the user customize their profile (profile picture, display name, user biography).
+--------------------------------------------------------
+
+
+<img width="1920" height="1080" alt="Home (2)" src="https://github.com/user-attachments/assets/6600cf2c-fbb2-4289-a3ad-752bee2c5a19" />
+
+## 3. Leaderboard Page (Uses collected data)
+- Can be accessed by hovering over the Minigames tab.
+- Displays a leaderboard with the user’s username and ranking.
+--------------------------------------------------------
+
+### Order of how the user will see the webpages:
+- Login/Sign-up Page
+- Pick your profile picture
+- Profile editing page
+- (The leaderboard page will only appear once you finished the quiz).
+--------------------------------------------------------
 
