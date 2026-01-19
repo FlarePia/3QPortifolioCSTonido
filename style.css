@@ -281,11 +281,31 @@ footer {
 }
 
 .card.character .details {
-  opacity: 0;
+  /*opacity: 0;
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s ease;
-  color: var(--muted);
+  color: var(--muted);*/
+
+  height: 200px;
+  /* or use max-height: 200px; */
+  overflow-y: scroll;
+  /* Adds vertical scrollbar only when needed */
+  padding: 10px;
+  /* Optional: adds space inside the div */
+}
+
+.card.character .details::-webkit-scrollbar {
+  width: 10px;
+}
+
+.card.character .details::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.card.character .details::-webkit-scrollbar-track {
+  background: #000000;
 }
 
 .card.character:hover {
@@ -694,6 +714,7 @@ footer {
 .character-info {
   padding-left: 50px !important;
   padding-right: 50px !important;
+
 }
 
 .character-view {
