@@ -1247,3 +1247,44 @@ body::before {
 .character-result strong {
   color: #ffcffc;
 }
+
+.episode-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  margin-left: auto;
+  align-items: center;
+}
+
+/*
+.memory {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+#card-section-section.card {
+  color: #000000;
+  width: 200px;
+  height: 350px;
+  gap: 300px;
+  justify-content: center;
+}
+
+.card.flipped {
+  background-color: white;
+  width: 200px;
+  height: 350px;
+  gap: 300px;
+  justify-content: center;
+}
+
+#card-game-section {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+
+  gap: 20px;
+  justify-content: center;
+
+}
+*/

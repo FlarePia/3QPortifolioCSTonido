@@ -227,8 +227,7 @@ const characters = {
     enemies: "Enemies: Jaden (former friend), Lettuce",
     motivations: "Motivations: be the best player on the server",
     arcs: "Arcs: Toxic War arc, Betrayal Arc, Skill vs Power Arc, Kings Arc",
-    personalityArc: "Personality arc: overconfident → fought players alone → got betrayed by a friend → made a new friend (Lomedy) → helped Lomedy out → trusted him again → got hunted by the LAW → accepted he needs help to get better",
-
+    personalityArc: "Personality arc: overconfident → fought players alone → got betrayed by a friend → made a new friend (Lomedy) → helped Lomedy out → trusted him again → got hunted by the LAW → accepted he needs help to get better"
   },
 
   'Jumper': {
@@ -402,6 +401,7 @@ const characters = {
     quote: "“This is an Orbital Strike Cannon - and after spending a month questing through the Minecraft Farlands, I've come into possession of a hundred of these cannons.”",
     reference: "(Wemmbu: Orbital Strike Cannon vs Unstable SMP)",
     personality: "Personality: chaotic, lively",
+    strengths: "Strengths: unpredictable, clever, talented at macing",
     weaknesses: "Weaknesses: loss of purpose without being the best",
     friends: "Friends: Egg (alive), Flame",
     allies: "Allies: Jaden, Minute",
@@ -456,5 +456,75 @@ function openOverlay(name) {
   overlay.style.display = 'flex';
 }
 
+/*
+function startCardGame() {
+  const cardGameSection = document.getElementById('card-game-section');
+  const pictures = ['assets/Creator-pics/flame.png', 'assets/Creator-pics/parrot.png', 'assets/Creator-pics/spoke.png', 'assets/Creator-pics/wemmbu.png']
+  const cards = ['assets/Creator-pics/flame.png', 'assets/Creator-pics/parrot.png', 'assets/Creator-pics/spoke.png', 'assets/Creator-pics/wemmbu.png', 'assets/Creator-pics/flame.png', 'assets/Creator-pics/parrot.png', 'assets/Creator-pics/spoke.png', 'assets/Creator-pics/wemmbu.png'];
 
+  // shuffle cards 
+  cards.sort(() => Math.random() - 0.5);
 
+  let firstCard = null;
+  let secondCard = null;
+  let lockBoard = false;
+
+  cards.forEach(value => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.textContent = "?";
+    card.dataset.value = value;
+
+    card.addEventListener("click", () => handleCardClick(card));
+    cardGameSection.appendChild(card);
+
+    function handleCardClick(card) {
+      if (lockBoard) return;
+      if (card === firstCard) return;
+      if (card.classList.contains("flipped")) return;
+
+      function flipCard(card) {
+        card.classList.add("flipped");
+      }
+
+      flipCard(card);
+
+      if (!firstCard) {
+        firstCard = card;
+      } else {
+        secondCard = card;
+        function checkMatch() {
+          if (firstCard.dataset.value === secondCard.dataset.value) {
+            firstCard.removeEventListener("click", handleCardClick);
+            secondCard.removeEventListener("click", handleCardClick);
+            resetBoard();
+          } else {
+            lockBoard = true;
+            setTimeout(() => {
+              firstCard.classList.remove("flipped");
+              secondCard.classList.remove("flipped");
+              resetBoard();
+            }, 1000);
+          }
+        };
+      }
+    }
+
+  });
+};
+*/
+
+function filterItems(selectedTags) {
+  const tags = ['tag-Spoke', 'tag-Parrot', 'tag-Wemmbu', 'tag-Flame']
+  for (const tag of tags) {
+
+    const cards = document.querySelectorAll(tag);
+    cards.forEach(card => {
+      if (selectedTags.some(selectedtag => tag == selectedtag)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+};
