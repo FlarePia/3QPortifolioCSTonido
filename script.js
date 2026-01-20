@@ -515,16 +515,18 @@ function startCardGame() {
 */
 
 function filterItems(selectedTags) {
-  const tags = ['tag-Spoke', 'tag-Parrot', 'tag-Wemmbu', 'tag-Flame']
-  for (const tag of tags) {
-
-    const cards = document.querySelectorAll(tag);
-    cards.forEach(card => {
-      if (selectedTags.some(selectedtag => tag == selectedtag)) {
+  let count = 1;
+  const cards = document.querySelectorAll('.ep-card');
+  for (const card of cards) {
+    for (const selectedTag of selectedTags) {
+      if (card.classList.contains(selectedTag)) {
+        card.querySelector('.episode-number').innerHTML = count;
+        count++;
         card.style.display = 'block';
+        break;
       } else {
         card.style.display = 'none';
       }
-    });
+    }
   }
 };
