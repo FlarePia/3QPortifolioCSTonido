@@ -127,326 +127,113 @@ const characters = {
   'Ash': {
     name: "Ash",
     quote: "“It’s the people we love the most that tear us apart”",
-    reference: "(ParrotX2: Unstable SMP: Doomsday)",
-    personality: "Personality: calculating, controlling, emotionally manipulative",
-    strengths: "Strengths:  strategic, precise, calm under pressure ",
-    weaknesses: "Weaknesses: vulnerable when opposition unites",
-    friends: "Friends: Squiddo (lover) ",
-    allies: "Allies: Clown (tactical alliance)",
-    enemies: "Enemies:  All on the server",
-    motivations: "Motivations: Take over the server to save it",
-    arcs: "Arcs: Mafia Arc, Secret Base Arc ",
-    personalityarc: "Personality Arc: First seen as an innocent player → revealed to be leader of a group called the mafia → mafia rises to power → the mafia falls from the unity of people against it → resorts to living in a private base with his girlfriend",
+    description: "Ash is the determined and courageous leader of the group. With a strong sense of justice and an unwavering commitment to his friends, he faces challenges head-on and inspires those around him."
   },
-
   'Clown': {
     name: "Clown",
-    quote: "“You think I care about reputation?”",
-    reference: "(ParrotX2: I Got Hunted by Minecraft’s Deadliest Players)",
-    personality: "Personality: dominating, leader of the nether",
-    strengths: "Strengths: elite swordsmanship, tactical aggression ",
-    weaknesses: "Weaknesses: emotional attachment to a small inner circle (Branzy and Ferre)",
-    friends: "Friends: Branzy, Ferre",
-    allies: "Allies: Ash, Zam",
-    enemies: "Enemies: all marked targets ",
-    motivations: "Motivations: acquire resources and money at all costs ",
-    arcs: "Arcs: Prisons Arc, Mafia Arc, Treasure Arc ",
-    personalityarc: "Personality Arc: hired assassin hunting for kills → hired by Ash as an ally for his mafia → became king of the nether",
-
+    quote: "“But here's the thing. Parrot. We really are the same.”",
+    description: "Clown is the heart of the group, always ready with a joke or a prank to lighten the mood. Beneath his playful exterior lies a sharp mind and a deep loyalty to his friends."
   },
   'Dean': {
     name: "Dean",
     quote: "“What if you just die, and I'm stuck here, and nobody ever trusts me again.”",
-    reference: "(ParrotX2: Unstable SMP: The First War)",
-    personality: "Personality: timid, cowardly",
-    strengths: "Strengths: comedic ",
-    weaknesses: "Weaknesses: not loyal, constantly betraying",
-    friends: "Friends: Parrot ",
-    allies: "Allies: Wifies",
-    enemies: "Enemies: Ash",
-    motivations: "Motivations: stay alive ",
-    arcs: "Arcs:  Mafia Arc ",
-    personalityarc: "Personality Arc: joined mafia → found by Parrot and Wifies → joined them on missions → secretly leaking location → found out by Wifies → found out by Parrot → kicked out of friend group → joined back into the mafia → betrayed mafia → killed by Parrot (unknowingly) ",
-
+    description: "Dean is the intellectual of the group, always curious and eager to learn. His analytical mind and resourcefulness often help the team navigate complex situations."
   },
   'Derapchu': {
     name: "Derapchu",
-    quote: "“Whenever you mess up, nobody cares. Whenever I mess up, that’s literally what everyone remembers me for”",
-    reference: "(ParrotX2: I Got Hunted by a Minecraft Redstone Genius)",
-    personality: "Personality: defensive",
-    strengths: "Strengths: loyal, hardworking ",
-    weaknesses: "Weaknesses: self-doubt, low self confidence ",
-    friends: "Friends: Leo, Jumper, Nufuli, Parrot",
-    allies: "Allies: Ro, Woogie",
-    enemies: "Enemies: Ash, Flame, The Director ",
-    motivations: "Motivations: be seen as someone who can accomplish something ",
-    arcs: "Arcs: Prisons Arc, Mafia Arc, Director Arc ",
-    personalityarc: "Personality Arc: makes mistakes → low self esteem → Parrot joins BAT and is admired → Cube sets a trap in the base while Derap should be patrolling → gets scolded → gets strapped to a bomb by Cube → Parrot saves him → BAT’s valuables are all missing → Parrot and Derap hunt the items down → Derap asks to take all credit for getting it back, Parrot refuses → when Parrot and Cube are alone, Derap jumps in and takes Cube in for questioning → started gaining self confidence in himself ",
-
+    quote: "“...”",
+    description: "Derapchu is the strong and silent type, known for his physical prowess and unwavering sense of honor. He is a dependable ally who values loyalty above all else."
   },
   'Director': {
     name: "Director",
-    quote: "“We will meet each other soon, Parrot, whether you want to or not. Because that’s the story I wrote, and I don’t write stories where I lose.” ",
-    reference: "(ParrotX2: I Got Hunted by a Minecraft Redstone Genius)",
-    personality: "Personality: obsessive, protective ",
-    strengths: "Strengths: calculated, manipulative",
-    weaknesses: "Weaknesses: overconfident",
-    friends: "Friends: Parrot (at this point Parrot no longer considers him one) ",
-    allies: "Allies: N/A",
-    enemies: "Enemies: anyone who tries to hurt Parrot",
-    motivations: "Motivations: Protect Parrot from the world at all costs so that he doesn't hurt himself. ",
-    arcs: "Arcs: Director Arc",
-    personalityarc: "Personality Arc: kind and caring Wifies → protective Wifies → fakes his death → kills his old self to protect Parrot → traps Parrot in his prison to protect him → almost succeeds in outsmarting Parrot → last flaw in his prison is himself → Parrot escapes and he dies ",
-
+    quote: "“You can't win against someone who doesn't exist.”",
+    description: "Director is the strategic thinker of the group, always planning several steps ahead. His leadership and tactical skills are crucial in guiding the team through their adventures."
   },
   'Eggchan': {
     name: "Eggchan",
     quote: "“You might get better but you're never gonna be perfect.”",
-    reference: "(Wemmbu: I Mastered Minecraft Combat)",
-    personality: "Personality: calm, unintentionally funny",
-    strengths: "Strengths: loyal, always finds ways to help Wemmbu out ",
-    weaknesses: "Weaknesses: bad at pvp ",
-    friends: "Friends: Wemmbu, Minute",
-    allies: "Allies: Manepear, Jaden",
-    enemies: "Enemies: Clown, Lettuce ",
-    motivations: "Motivations:  help Wemmbu as much as he can ",
-    arcs: "Arcs: Zam Empire Arc, Invis Mafia Arc, Pirate Arc, Power Arc, Fake Identity Arc, Kings Arc",
-    personalityarc: "Personality Arc: went on journeys with Wemmbu → visited the Farlands → saved Wemmbu from being unknowingly hit into a portal, taking the hit himself → stuck in the end for a long while → Wemmbu got him out → started going on adventures again → always served as Wemmbu’s moral compass",
-
+    description: "Eggchan is the creative force of the group, always coming up with innovative ideas and solutions. Her artistic talents and imaginative thinking inspire those around her."
   },
   'Flame': {
     name: "Flame",
     quote: "“Better an honest enemy than a false friend I guess”",
-    reference: "(FlameFrags: I Got Betrayed on the Unstable SMP)",
-    personality: "Personality: disciplined, short-tempered, rational under pressure",
-    strengths: "Strengths: elite swordsmanship",
-    weaknesses: "Weaknesses: cares about his title too much",
-    friends: "Friends: Wemmbu (former rival)",
-    allies: "Allies: Lomedy, Parrot ",
-    enemies: "Enemies: Jaden (former friend),Spoke Lettuce,",
-    motivations: "Motivations: be the best player on the server ",
-    arcs: "Arcs: Toxic War arc, Betrayal Arc, Skill vs Power Arc, Kings Arc",
-    personalityarc: "Personality Arc: overconfident → fought players alone → got betrayed by a friend → made a new friend (Lomedy) → helped Lomedy out → trusted him again → got hunted by the LAW → accepted he needs help to get better ",
-
+    description: "Flame is known for being one of the best pvpers on the server, being able to take outnumbered fights multiple times as a solo player. However, when he starts considering a player named Jaden as his friend, Jaden uses Flame’s skill to get what he wanted, and when he had everything he betrayed Flame. This led to Flame attempting to trust other players but for some reason, all of them manipulated him into using his skill for their personal gain. Flame didn’t appreciate being used, and so he went back to what he knew best: being a solo player."
   },
   'Jumper': {
     name: "Jumper",
     quote: "“There’s something about the truth that keeps it from being perfect”",
-    reference: "(ParrotX2: I Got Hunted by Minecraft Bounty Hunters)",
-    personality: "Personality: curious, questioning, truth seeker, cares about her team",
-    strengths: "Strengths:  kind, sneaky, smart, good leader, loyal friend ",
-    weaknesses: "Weaknesses:  the identities of her spies is a liability ",
-    friends: "Friends: Nufuli, Derapchu, Parrot",
-    allies: "Allies: Ro, Woogie, Leo (former friend)",
-    enemies: "Enemies: Clown, The Director",
-    motivations: "Motivations: to find the truth",
-    arcs: "Arcs: Prisons Arc, Mafia Arc, Director Arc, BAT Arc, Kings Arc ",
-    personalityarc: "Personality Arc: member of Leo’s bounty team earlier on → learning to work with others → learning how to hunt down players → became an expert, enough to lead her own team of spies → helped Parrot reveal his innocence (about not being the Director) when no one else on BAT believed him → killed one of her spies to know the truth → stayed true to her morals no matter what",
-
+    description: "Jumper is the adventurous spirit of the group, always eager to explore new places and take risks. His enthusiasm and courage inspire others to step out of their comfort zones."
   },
   'Leo': {
     name: "Leo",
     quote: "“No matter what situation you’re in, you always have someone that has your back.”",
-    reference: "(ParrotX2: I Got Hunted by the World’s Best Minecraft Player)",
-    personality: "Personality: leader, aggressive, commands attention ",
-    strengths: "Strengths: effectively puts plans into action  ",
-    weaknesses: "Weaknesses: breaks trust with his closest teammates",
-    friends: "Friends: Nufuli (dead) ",
-    allies: "Allies: Jumper (former friend), Derapchu (former friend), Parrot (former friend), Lettuce",
-    enemies: "Enemies:  Clown, The Director, Spoke, Wemmbu, Flame",
-    motivations: "Motivations: successfully take down all targets",
-    arcs: "Arcs: Prisons Arc, Mafia Arc, Director Arc, BAT Arc, Kings Arc",
-    personalityarc: "Personality Arc: had an original bounty team to kill Clown with Parrot→ failed and got captured → escaped → came across Parrot again who refused to join BAT → kept trying and saved Parrot’s life → Parrot joins BAT thanks to Leo’s persistence → the longer Parrot stays at BAT, the more Leo loses → loses his wealth, his base and his friend → blames Parrot for everything → attempts an assassination when they’re alone → saves Parrot at the end → level of mistrust with all members of BAT → Parrot and Leo work together for the last time to save Jumper and Derap from Director → last time Leo works with Jumper and Derapchu → Leo is alone with a few spies from Jumper → teams up with the LAW to serve justice to the server ",
-
+    description: "Leo is the natural leader of the group, known for his charisma and ability to inspire others. His sense of responsibility and dedication to his friends make him a trusted figure."
   },
   'Lomedy': {
     name: "Lomedy",
-    quote: "“True farmers don't kill. That's farmer code”",
-    reference: "(FlameFrags: Unstable SMP: The Great Farm War)",
-    personality: "Personality: peaceful, helpful, kind, refuses to kill, passive",
-    strengths: "Strengths: heart of gold ",
-    weaknesses: "Weaknesses: easily manipulated and tricked",
-    friends: "Friends: Flame ",
-    allies: "Allies: N/A",
-    enemies: "Enemies: Spongs, Willi, Jaden ",
-    motivations: "Motivations: be the best farmer there is",
-    arcs: "Arcs: Betrayal Arc, Skill vs Power Arc, Kings Arc",
-    personalityarc: "Personality Arc: had a friend who once protected him (unnamed) → they died during the mafia → farming alone for a while while competing with toxic farmers → Flame came to his farm one day and fought → Flame taught him some pvp and brought him along on adventures → Flame reminded him of his old friend → they became friends → would help Flame with his projects → Flame helped him become the best farmer and deal with the toxic players ",
-
+    quote: "“The farmers don't kill. That's farmer code”",
+    description: "Lomedy is the comedic relief of the group, always ready with a joke or a funny story. His lighthearted nature and positive attitude help keep spirits high during tough times."
   },
-
-  'Lettuce': {
-    name: "Lettuce",
-    quote: "“What Unstable needs… is a king”",
-    reference: "(FlameFrags: Solo Player VS 1000 Minecraft Hunters)",
-    personality: "Personality: power-hungry, ruthless, ambitious, carefully masks true intentions",
-    strengths: "Strengths: strategic, manipulative, good personal image",
-    weaknesses: "Weaknesses: underestimates others, overconfident, image eventually starts slipping ",
-    friends: "Friends: Deputy Ace ",
-    allies: "Allies: N/A ",
-    enemies: "Enemies: Parrot, Spoke, Wemmbu, Flame ",
-    motivations: "Motivations: become king of the server, to help the server by getting rid of those who break his meaning of justice ",
-    arcs: "Arcs: Mafia Arc, Kings Arc",
-    personalityarc: "Personality Arc: being a normal person on the server → working his way up to leader of an organization called the LAW → LAW was defeated multiple times → slowly worked its way up into power",
-
-  },
-
   'Mane': {
-    name: "Mane",
-    quote: "“I like having fun. You need a reason to play the game.”",
-    reference: "(FlameFrags: I Got trained by a Minecraft Spear Master)",
-    personality: "Personality: chaotic, comedic, easily ragebaited",
-    strengths: "Strengths: spear master, comes up with tactical strategies",
-    weaknesses: "Weaknesses: isn’t involved in main server matters ",
-    friends: "Friends: Flame, Wemmbu, Egg",
-    allies: "Allies: N/A ",
-    enemies: "Enemies: Zam",
-    motivations: "Motivations: have fun on the server",
-    arcs: "Arcs:  Zam Empire Arc, Mafia Arc, Kings Arc",
-    personalityarc: "Personality Arc: royal guard of PrinceZam → mentor of Wemmbu in combat → disappearing for a year → living in a cave → teaching Flam the secrets of the spear → reuniting with a brother again (Flame) after so long ",
-
+    name: "Lost cause.",
+    quote: "“Strength comes from unity.”",
+    description: "Mane is the dependable and strong member of the group. Known for his physical strength and protective nature, he is a steadfast ally who values friendship and teamwork."
   },
   'Mapicc': {
     name: "Mapicc",
     quote: "“Spoke- who are you bro?”",
-    reference: "(Spoke: I Infiltrated the Minecraft Mafia)",
-    personality: "Personality: logical, thoughtful, concerned",
-    strengths: "Strengths: kind, incredibly loyal, sticks by Spoke’s side no matter what",
-    weaknesses: "Weaknesses: fails to see when his kindness is being abused by Spoke",
-    friends: "Friends: Spoke, Minute, Planet, Zam, Jamato",
-    allies: "Allies: N/A",
-    enemies: "Enemies:  Leo(former friend), Ash, Lettuce ",
-    motivations: "Motivations:  keep Spoke on the morally good side of the server",
-    arcs: "Arcs: Exploit Arc, Mafia Arc, Secret Base Arc, BAT Arc ",
-    personalityarc: "Personality Arc: with Spoke since the beginning of the server → trusted Ash originally → was chased around with Spoke by Ash’s mafia → became a close friend of Minute’s → when Spoke pushed everyone away, Mapicc still stayed → when Mapicc was presumed dead, Spoke nearly destroyed the server → when he was found alive, Spoke swore to use his manipulation to keep his friends close",
-
+    description: "Mapicc is the skilled and precise member of the group. Known for his expertise in combat and strategy, he is a reliable ally who approaches challenges with focus and determination."
   },
   'Minute': {
     name: "Minute",
     quote: "“Meeting you guys was one of the best things I’ve ever done since I left the mafia”",
-    reference: "(Spoke: I Got Hunted by the Minecraft Mafia)",
-    personality: "Personality: wise, protective, strategic",
-    strengths: "Strengths: elite swordsman, tactical fights",
-    weaknesses: "Weaknesses: overpowered by multiple enemies (he fights alone)",
-    friends: "Friends: Wemmbu, Mapicc, Egg",
-    allies: "Allies: Spoke, Planet",
-    enemies: "Enemies: Flame, Ash",
-    motivations: "Motivations: to protect those who are under his wing",
-    arcs: "Arcs: Mafia Arc, Power Arc, Fake Identity Arc ",
-    personalityarc: "Personality Arc: Part of the original mafia → mafia fell to Ash → left the mafia and continuously got hunted → helped Spoke and Mapicc escape → became a friend and mentor → left when Spoke insulted his help → returned when Spoke and Mapicc defeated the mafia → became protector of the End",
-
+    description: "Minute is the punctual and organized member of the group. Known for his time management skills and reliability, he ensures that the team stays on track and meets their goals."
   },
   'Nufuli': {
     name: "Nufuli",
-    quote: "“Sometimes it feels like I don’t even know who I am, man. I’m tired of trying to be you”",
-    reference: "(ParrotX2: I Got Hunted by a Minecraft Hacker)",
-    personality: "Personality: loyal, calm, always follows Leo’s plans",
-    strengths: "Strengths: successfully executes anything he’s told by Leo",
-    weaknesses: "Weaknesses: doesn’t think for himself, instead tries to be someone he’s not ",
-    friends: "Friends: Leo, Jumper, Derapchu, Parrot",
-    allies: "Allies: N/A ",
-    enemies: "Enemies: The Director ",
-    motivations: "Motivations: to be like Leo (before), to find out who he is (after)",
-    arcs: "Arcs: Director Arc ",
-    personalityarc: "Personality Arc: always followed Leo’s every command → seen as a reliable teammate and brother by Leo → Meeting Parrot, he started seeing himself more → saved Parrot’s life by being creative → realized he wanted to figure himself out → decided to leave BAT to go on a mission of self discovery → killed seconds later by the Director",
-
+    quote: "“...”",
+    description: "Nufuli is the adaptable and resourceful member of the group. Known for his ability to think on his feet and adjust to changing situations, he is a valuable asset in any adventure."
   },
   'Parrot': {
     name: "Parrot",
-    quote: "“Thank you for being my friend.“",
-    reference: "(ParrotX2: Unstable SMP: Doomsday)",
-    personality: "Personality: selfless, puts others before himself",
-    strengths: "Strengths: leadership, charitable",
-    weaknesses: "Weaknesses: always sees his assumptions of people as right (is someone evil or good)",
-    friends: "Friends: Wifies (dead), Dean (dead), Luigi (dead), Theo (alive)",
-    allies: "Allies: Leo, Derapchu, Jumper, Nufuli",
-    enemies: "Enemies: Clown, Ash, The Director, LettuceK",
-    motivations: "Motivations: help/save the server",
-    arcs: "Arcs: Prisons Arc, Mafia Arc, Hunted Arc, Treasure Arc, Kings Arc",
-    personalityarc: "Personality Arc: too selfless → always getting in harm’s way → losing Wifies → becomes more guarded → loses more friends → finds a new Friend in Theo → finds trust again ",
-
+    quote: "“Thank you for being my friend”",
+    description: "ParrotX2 is very selfless and truly cares about others. He decides to prioritize the lives of others before his own, even if that means risking his own life multiple times in the process. However, when his best friend, Wifies, dies, he decides to start focusing on himself, because without friends on the server it was easier to trust himself instead of opening himself up to others to be hurt all over again. But eventually he decides to take a chance on new friends (BAT members), although more walled off than he had been before. Soon after, he then becomes close friends with a previous acquaintance, Theo, and together as a new duo they are exploring the server to help save it."
   },
   'Spoke': {
     name: "Spoke",
-    quote: "“What I’m doing right now is nothing compared to what they have been doing for months on end. I don’t have a home anymore. I don’t have a friend anymore!”",
-    reference: "(SpokeIsHere: My Best Friend Died on the Unstable SMP)",
-    personality: "Personality: manipulative, psychotic",
-    strengths: "Strengths: persistence",
-    weaknesses: "Weaknesses: losing Mapicc",
-    friends: "Friends: Mapicc (alive), Zam (alive)",
-    allies: "Allies:  Planet, Squiddo, Jepexx, Minute",
-    enemies: "Enemies:Flame, JamatoP (former friend), Ash, Leo (former friend), Lettuce",
-    motivations: "Motivations: wants power",
-    arcs: "Arcs: Exploit Arc, Mafia Arc, Secret Base Arc, BAT Arc ",
-    personalityarc: "Personality Arc: too self-absorbed → betrays morals → Mapicc gets him to think otherwise → creates an empire about himself → backfires → loses Mapicc → about to destroy the server → finds him → manipulates his friends to stay",
+    quote: "“I will get revenge for you. I will avenge all of the players he's either captured or killed, and the destroyed bases!”",
+    description: "Spoke was a character that didn’t have bad intentions. He truly wanted to help the server and save it from a new group that was taking over: the Mafia. But on this quest for self-righteousness, he starts justifying actions that are very questionable. He justifies killing players for saving the server. But luckily, his friends are able to bring him back to his senses that these actions aren’t worth his humanity, which gets him to stop. He has some encounters with the Mafia’s leader, Ash, who tells Spoke that he has a lot of potential to become as evil as he (Ash) did. This comment then causes Spoke to go on a spiral of insanity as he starts breaking into people’s bases, stalking them for days on end and killing innocent players that witnessed his heinous acts. People on the server are after him, but every time he comes up with a plan to manipulate his way out of bad situations."
   },
-
   'Theo': {
     name: "Theo",
     quote: "“I'd rather die in a fight than stay and wait for the fight to come here.”",
-    reference: "(ParrotX2: Unstable SMP: The First War)",
-    personality: "Personality: protective, defends his friends, stands up for what he believes in",
-    strengths: "Strengths: master of carting",
-    weaknesses: "Weaknesses: egotistical ",
-    friends: "Friends: Parrot ",
-    allies: "Allies: Wifies (previously)",
-    enemies: "Enemies: Ash, Purpled, Lettuce",
-    motivations: "Motivations: have fun, protect his friends",
-    arcs: "Arcs:  Mafia Arc, Pirate Arc, Treasure Arc, Kings Arc ",
-    personalityarc: "Personality Arc: one of the best fighters in the Farlands → boasted to Parrot → realized Parrot was a good leader → protected Parrot from attempted assassination → defended Parrot and saw him as a leader → joined Parrot’s anti-mafia group → lost touch after mafia → met up with Parrot at spawn again → joined him on adventures to find treasure and to make Parrot king",
-
+    description: "Theo is the inventive and forward-thinking member of the group. Known for his creativity and problem-solving skills, he constantly seeks new ways to improve and innovate."
   },
-
   'Wemmbu': {
     name: "Wemmbu",
     quote: "“This is an Orbital Strike Cannon - and after spending a month questing through the Minecraft Farlands, I've come into possession of a hundred of these cannons.”",
-    reference: "(Wemmbu: Orbital Strike Cannon vs Unstable SMP)",
-    personality: "Personality: chaotic, lively",
-    strengths: "Strengths: talented at macing",
-    weaknesses: "Weaknesses: loss of purpose without being the best ",
-    friends: "Friends: Egg (alive), Flame",
-    allies: "Allies: Jaden, Minute",
-    enemies: "Enemies: Clown, Lettuce",
-    motivations: "Motivations: survive on the server ",
-    arcs: "Arcs: Zam Empire Arc, Mafia Arc, Pirate Arc, Power Arc, Fake Identity Arc, Kings Arc ",
-    personalityarc: "Personality Arc: cause chaos on the server → show dominance and power to be the best → realize that being the best isn’t everything → live as a secret identity → get revealed by Parrot and Flame to be Wemmbu → accepted defeat that he wasn’t the best and was humble → became enemies with the LAW for his actions → teamed with Flame to fight 1000 players who wanted to kill them → now on the run fighting back against the LAW",
+    description: "Wemmbu was first seen as someone who could easily be pushed around. But after creating civilizations, helping defeat the mafia and learning new techniques, he had come to learn what would be known as his signature skill: elytra macing. After mastering this new skill, and getting access to multiple orbital cannons, he then became someone that people respected for his power. He wanted to claim the title of the most powerful on the server, a title that belonged to FlameFrags. But after defeating Flame in a battle, he no longer had any purpose on the server. So he decided to go fully invisible and create a new identity, which was eventually uncovered by Flame himself. But after working together with Flame, he decided that keeping the title wasn’t worth it, and accepted the fact that he wasn’t the strongest and most powerful player anymore. Wemmbu didn’t need to prove it to anyone else, and he was confident that he was in fact, one of the strongest."
   },
   'Wifies': {
     name: "Wifies",
     quote: "“How can I put you in a situation where I know there’s no winning. I need you to win”",
-    reference: "(ParrotX2: Unstable SMP: Doomsday)",
-    personality: "Personality: smart, reflective, supportive, protective",
-    strengths: "Strengths: effective support ",
-    weaknesses: "Weaknesses: relies on other people making the first move",
-    friends: "Friends: Parrot",
-    allies: "Allies: Kenadian, Wato",
-    enemies: "Enemies: Dean (betrayal endangered Parrot), Clown, Ash",
-    motivations: "Motivations: protect Parrot and keep him safe",
-    arcs: "Arcs: Prisons Arc, Mafia Arc, Director Arc ",
-    personalityarc: "Personality Arc: smartest player → met Parrot → joined him on journeys → became a trustworthy friend → became overprotective of Parrot → wants Parrot to be more selfish for his own good",
-
-
+    description: "Wifies is known for his tactical decisions and calm approach under pressure. He coordinates plans, forms alliances, and always thinks two steps ahead."
   }
 
 
+}
+
+
 function openOverlay(name) {
-    document.getElementById("active-character").alt = name;
-document.getElementById("active-character").src = "assets/" + name + "/front.png";
+  document.getElementById("active-character").alt = name;
+  document.getElementById("active-character").src = "assets/" + name + "/front.png";
 
-document.getElementById('json-name').innerText = characters[name].name;
-document.getElementById('json-quote').innerText = characters[name].quote;
-document.getElementById('json-reference').innerText = characters[name].reference;
-document.getElementById('json-personality').innerText = characters[name].personality;
-document.getElementById('json-strengths').innerText = characters[name].strengths;
-document.getElementById('json-weaknesses').innerText = characters[name].weaknesses;
-document.getElementById('json-arcs').innerText = characters[name].arcs;
-document.getElementById('json-personalityarc').innerText = characters[name].personalityarc;
-document.getElementById('json-friends').innerText = characters[name].friends;
-document.getElementById('json-enemies').innerText = characters[name].enemies;
-document.getElementById('json-allies').innerText = characters[name].allies;
+  document.getElementById('json-name').innerText = characters[name].name;
+  document.getElementById('json-quote').innerText = characters[name].quote;
+  document.getElementById('json-description').innerText = characters[name].description;
 
-const overlay = document.getElementById('overlay');
-overlay.style.display = 'flex';
+  const overlay = document.getElementById('overlay');
+  overlay.style.display = 'flex';
 }
 
 

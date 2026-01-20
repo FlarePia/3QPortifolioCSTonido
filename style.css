@@ -281,31 +281,11 @@ footer {
 }
 
 .card.character .details {
-  /*opacity: 0;
+  opacity: 0;
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s ease;
-  color: var(--muted);*/
-
-  height: 200px;
-  /* or use max-height: 200px; */
-  overflow-y: scroll;
-  /* Adds vertical scrollbar only when needed */
-  padding: 10px;
-  /* Optional: adds space inside the div */
-}
-
-.card.character .details::-webkit-scrollbar {
-  width: 10px;
-}
-
-.card.character .details::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-.card.character .details::-webkit-scrollbar-track {
-  background: #000000;
+  color: var(--muted);
 }
 
 .card.character:hover {
@@ -362,7 +342,7 @@ footer {
 }
 
 .creator-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   padding: 2rem;
@@ -624,8 +604,8 @@ footer {
 }
 
 .input-select option {
-  color: #eee;
-  background: rgba(0, 0, 0, 0.8);
+  color: #eee; 
+  background: rgba(0, 0, 0, 0.8); 
 }
 
 .input-select:hover,
@@ -714,7 +694,6 @@ footer {
 .character-info {
   padding-left: 50px !important;
   padding-right: 50px !important;
-
 }
 
 .character-view {
@@ -742,16 +721,15 @@ footer {
 .creator-pics {
   width: 100%;
 }
-
 .hero-card {
   width: 750px;
-  height: auto;
+  height: auto;             
   padding: 25px;
   border-radius: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
+  flex-direction: column;   
+  align-items: center;      
+  gap: 15px;                
 }
 
 .hero-card p.muted {
@@ -793,15 +771,13 @@ footer {
 
 /* Hero Text Box */
 .hero-text {
-  background: rgba(10, 10, 15, 0.75);
-  /* dark semi-transparent box */
-  border: 2px solid rgba(255, 68, 68, 0.5);
-  /* subtle accent border */
+  background: rgba(10, 10, 15, 0.75); /* dark semi-transparent box */
+  border: 2px solid rgba(255, 68, 68, 0.5); /* subtle accent border */
   border-radius: 20px;
   padding: 2.5rem;
   max-width: 600px;
   color: #eee;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0 8px rgba(0,0,0,0.7);
 }
 
 /* Headline Glow */
@@ -870,7 +846,7 @@ footer {
   font-size: 1rem;
   color: #bbb;
   margin-top: 1rem;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 5px rgba(0,0,0,0.6);
 }
 
 /* Slideshow Images inside Hero Card */
@@ -904,8 +880,7 @@ footer {
   max-width: 800px;
   margin: 5rem auto;
   padding: 1.2rem 2.5rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  /* darker translucent bg */
+  background-color: rgba(0, 0, 0, 0.8); /* darker translucent bg */
   border-radius: 12px;
   box-shadow: 0 0 25px rgba(255, 68, 68, 0.4);
   text-align: center;
@@ -926,10 +901,8 @@ footer {
 
 /* for char cards */
 .card.character {
-  background-color: rgba(0, 0, 0, 0.8);
-  /* dark translucent bg */
-  border: 1px solid rgba(255, 68, 68, 0.2);
-  /* glowy-ish red border */
+  background-color: rgba(0, 0, 0, 0.8); /* dark translucent bg */
+  border: 1px solid rgba(255, 68, 68, 0.2); /* glowy-ish red border */
   padding: 1.5rem;
   border-radius: 12px;
   text-align: center;
@@ -982,8 +955,7 @@ footer {
 }
 
 .ep-card {
-  background: rgba(0, 0, 0, 0.6);
-  /* dark background */
+  background: rgba(0, 0, 0, 0.6); /* dark background */
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   overflow: hidden;
@@ -994,21 +966,18 @@ footer {
 
 .ep-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 25px rgba(255, 68, 68, 0.6);
-  /* glowwwwwwwwwwwww */
+  box-shadow: 0 0 25px rgba(255, 68, 68, 0.6); /* glowwwwwwwwwwwww */
   border-color: rgba(255, 68, 68, 0.4);
 }
 
 .ep-thumb {
-  padding: 0;
-  /* remove padding */
+  padding: 0; /* remove padding */
   background: none;
 }
 
 .ep-thumb img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  /* YouTube ratio */
+  aspect-ratio: 16 / 9; /* YouTube ratio */
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -1019,13 +988,215 @@ footer {
 
 /* space paragraphs */
 .hero-text p {
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
+  margin-bottom: 1.5rem; 
+  line-height: 1.6;   
 }
 
-/* formatting the first box for login*/
-.box1 {
-  display: flex;
-  width: 400px;
-  padding: 20px;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  color: #fff;
 }
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card.character {
+  text-align: center;
+  background-color: rgba(30, 30, 30, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fit-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Overlay */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.overlay-content {
+  max-width: 800px;
+  margin: 20px;
+}
+
+.close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  float: right;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+/* Collapsible styles */
+.collapsible {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.collapsible:hover {
+  background-color: #444;
+}
+
+.content {
+  padding: 10px 15px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(50, 50, 50, 0.8);
+  margin-bottom: 10px;
+  border-left: 3px solid #fff;
+}
+
+/* Ensure body takes full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Create a pulsing background behind all content */
+body::before {
+  content: "";
+  position: fixed;        /* Stay fixed behind all content */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://wallpaperaccess.com/full/214977.jpg'); /* Your BG image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;            /* Behind everything */
+  
+  /* Pulse animation */
+  animation: pulseBG 6s ease-in-out infinite;
+}
+
+/* Keyframes for the pulse effect */
+@keyframes pulseBG {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.03);   /* Slight zoom for pulse */
+    filter: brightness(1.1);  /* Slightly brighter at peak */
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+/* Full-screen overlay */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  display: none;       /* JS will set flex */
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 20px;
+  overflow-y: auto;    /* Allow scrolling for long descriptions */
+}
+
+/* Inner content */
+.overlay-content,
+.card.character.overlay-content {
+  max-width: 900px;
+  width: 90%;
+  background-color: rgba(20, 20, 20, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 20px;
+}
+
+/* Character info section */
+.character-info {
+  max-height: 60vh;         /* Restrict height to 60% of viewport */
+  overflow-y: auto;         /* Scroll if content too long */
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  width: 100%;
+  padding-right: 10px;      /* prevent scrollbar overlapping text */
+}
+
+/* Scrollbar styling (optional) */
+.character-info::-webkit-scrollbar {
+  width: 6px;
+}
+
+.character-info::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 3px;
+}
+
+/* Quiz card styling */
+.quiz-card {
+  background-color: rgba(0, 0, 0, 0.75); /* dark semi-transparent background */
+  padding: 20px 25px;
+  border-radius: 15px;
+  color: #fff;  /* make text white */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  line-height: 1.5rem;
+}
+
+/* Each question */
+.quiz-question {
+  background-color: rgba(30, 30, 30, 0.8); /* slightly lighter dark background */
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.character-result {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin-top: 15px;
+  color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.quiz-card strong,
+.character-result strong {
+  color: #ffcffc; 
+}
+
