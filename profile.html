@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile — Unstable Universe</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile — Unstable Universe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <div class="top-row">
-      <div class="logo">UU</div>
-      <nav>
-        <ul>
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="characters.html">Characters</a></li>
-          <li><a class="nav-link" href="episodes.html">Episodes</a></li>
-          <li><a class="nav-link" href="creators.html">Creators</a></li>
-          <li><a class="nav-link" href="#">Profile</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <div class="top-row">
+            <div class="logo">UU</div>
+            <nav>
+                <ul>
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="characters.html">Characters</a></li>
+                    <li><a class="nav-link" href="episodes.html">Episodes</a></li>
+                    <li><a class="nav-link" href="creators.html">Creators</a></li>
+                    <li><a href="profile.html" class="nav-link">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <main>
-    <div class="profile-container">
-      <img id="profilePic" src="" alt="Profile Picture" width="150">
-      <h2 contenteditable="true" id="displayName">Display Name</h2>
-      <p id="username">Username</p>
-      <p>Favorite Character: <span contenteditable="true" id="favCharacter"></span></p>
-      <h3>User Biography</h3>
-      <textarea id="bio" rows="5"></textarea>
-      <button id="saveProfile" class="btn primary">Save</button>
-    </div>
-  </main>
+    <main>
+        <div class="profile-container">
+            <img id="profilePic" src="" alt="Profile Picture" width="150">
+            <h2 contenteditable="true" id="displayName">Display Name</h2>
+            <p id="username">Username</p>
+            <p>Favorite Character: <span contenteditable="true" id="favCharacter"></span></p>
+            <h3>User Biography</h3>
+            <textarea id="bio" rows="5"></textarea>
+            <button id="saveProfile" class="btn primary">Save</button>
+        </div>
+    </main>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
