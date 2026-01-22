@@ -1306,6 +1306,34 @@ body::before {
 .music-btn:hover {
   background: rgba(0, 255, 255, 0.25);
 }
+  .episode-buttons {
+    text-align: center;
+    margin: 30px 0;
+  }
 
+  .episode-buttons .btn {
+    background-color: #ca2580;       /* Main purple glow */
+    color: #fff;                     /* Text color */
+    border: none;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 10px #9b5de5, 0 0 20px #6a0dad;
+    transition: 0.3s;
+    font-size: 1rem;
+  }
 
+  .episode-buttons .btn:hover {
+    background-color: #ff70a6;       /* Hover color */
+    box-shadow: 0 0 20px #ff70a6, 0 0 40px #6a0dad;
+  }
 
+  /* Optional: make currently active filter standout */
+  .episode-buttons .btn.active {
+    background-color: #6f00ff;
+    box-shadow: 0 0 15px #6f00ff, 0 0 30px #4d1294;
+  }
