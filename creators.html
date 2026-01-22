@@ -18,7 +18,8 @@
   <header>
     <div class="top-row">
       <div class="logo fade-in">
-        <div class="mark pulse"> <img src="https://i.postimg.cc/d3zqpk6X/unnamed.png" alt="Logo" class="logo-image"></div>
+        <div class="mark pulse"> <img src="https://i.postimg.cc/d3zqpk6X/unnamed.png" alt="Logo" class="logo-image">
+        </div>
         <div>
           <div class="title">Unstable Universe</div>
           <div class="subtitle">Given one Chance, What Life will You Choose to Live?</div>
@@ -26,12 +27,12 @@
       </div>
       <nav>
         <ul>
-         <li><a href="index.html" class="active nav-link">Home</a></li>
-        <li><a href="characters.html" class="nav-link">Characters</a></li>
-        <li><a href="episodes.html" class="nav-link">Episodes</a></li>
-        <li><a href="minigames.html" class="nav-link">Which Character Are You?</a></li>
-        <li><a href="creators.html" class="nav-link">Creators</a></li>
-        <li><a href="abtwebsitecreators.html" class="nav-link">Website Creators</a></li>
+          <li><a href="index.html" class="active nav-link">Home</a></li>
+          <li><a href="characters.html" class="nav-link">Characters</a></li>
+          <li><a href="episodes.html" class="nav-link">Episodes</a></li>
+          <li><a href="minigames.html" class="nav-link">Which Character Are You?</a></li>
+          <li><a href="creators.html" class="nav-link">Creators</a></li>
+          <li><a href="abtwebsitecreators.html" class="nav-link">Website Creators</a></li>
         </ul>
       </nav>
     </div>
@@ -46,7 +47,9 @@
         <h3>ParrotX2</h3>
         <p>He carries the serious and emotional weight of the series, being the one audiences can relate to most with
           their personal struggles. His content shows the importance of deep friendships and just how impactful friends
-          are in our lives. When we lose people who are incredibly important to us, it can feel like losing a part of
+          are in our lives.
+        </p>
+        <p>When we lose people who are incredibly important to us, it can feel like losing a part of
           ourselves in the process. But how does Parrot continue to adjust to his circumstances and fight back against
           injustice?</p>
         <a href="https://www.youtube.com/@ParrotX2" target="_blank" class="btn primary glow-btn">YouTube</a>
@@ -55,7 +58,9 @@
       <div class="creator-card fade-up">
         <img class="creator-pics" src="assets/Creator-pics/spoke.png" alt="Spoke">
         <h3>SpokeIsHere</h3>
-        <p>Known for his unpredictable energy and love for trolling others. He always keeps fans guessing what’s next.
+        <p>Known for his unpredictable energy and love for trolling others. Within his content lies hidden gems of
+          storytelling that are largely underrated by all. He is capable of making unique masterpieces that have never
+          been seen before. He always keeps fans guessing what’s next.
         </p>
         <a href="https://www.youtube.com/@SpokeIsHere" target="_blank" class="btn primary glow-btn">YouTube</a>
       </div>
@@ -63,7 +68,8 @@
       <div class="creator-card fade-up">
         <img class="creator-pics" src="assets/Creator-pics/wemmbu.png" alt="Wemmbu">
         <h3>Wemmbu</h3>
-        <p>Pro macer that brings a chaos into his content and stories. </p>
+        <p>Known for committing war crimes, he is a pro macer that brings a chaos into his content and stories. His
+          antics are daring and entertaining, and are sure to keep audiences hyped the whole way through.</p>
         <a href="https://www.youtube.com/@wemmbumc" target="_blank" class="btn primary glow-btn">YouTube</a>
       </div>
 
@@ -72,7 +78,9 @@
         <h3>FlameFrags</h3>
         <p>Known for his fiery fighting style, the majority of his content focuses on the skill he has mastered: PVP.
           Because of this skill, he has been given the title of the Immortal Demon, a name that many people challenge
-          over and over again. Over time he comes face to face with opponents that use unfair advantages to win battles
+          over and over again.
+        </p>
+        <p>Over time he comes face to face with opponents that use unfair advantages to win battles
           against him, just for the clout. He believes that honor and skill is the way to win any battle, but is that
           really the truth?</p>
         <a href="https://www.youtube.com/@FlameFragsMC" target="_blank" class="btn primary glow-btn">YouTube</a>
@@ -91,8 +99,8 @@
   <script src="script.js"></script>
 
   <audio id="bg-music" loop>
-  <source src="assets/music/dark-trailer-461860.mp3" type="audio/mpeg">
-</audio>
+    <source src="assets/music/dark-trailer-461860.mp3" type="audio/mpeg">
+  </audio>
 
   <script>
     const bgMusic = document.getElementById('bg-music');
@@ -103,7 +111,7 @@
       bgMusic.currentTime = parseFloat(savedTime);
     }
 
-    bgMusic.play().catch(() => {});
+    bgMusic.play().catch(() => { });
 
     // Save current time before leaving page
     window.addEventListener('beforeunload', () => {

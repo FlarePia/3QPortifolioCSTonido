@@ -58,21 +58,21 @@ function runQuiz() {
   } else if (q1 === 'tnt' || q2 === 'explosive') {
     character = {
       name: 'Flame',
-      role: 'The Wildcard',
+      role: 'The Immortal Demon',
       img: 'assets/Flame/front.png',
-      desc: 'You’re explosive and unpredictable — a true agent of chaos like Flame!'
+      desc: 'You’re explosive and unpredictable — a true agent of fire like Flame!'
     };
   } else if (q1 === 'pickaxe' || q2 === 'creative') {
     character = {
       name: 'Wemmbu',
-      role: 'The Builder',
+      role: 'The Chaotic',
       img: 'assets/Wemmbu/front.png',
-      desc: 'Creative, patient, and precise — you think in blueprints and bring worlds to life.'
+      desc: 'Creative, patient, and precise - you always stir up some mischief.'
     };
   } else {
     character = {
       name: 'Spoke',
-      role: 'The Enforcer',
+      role: 'The Wild Card',
       img: 'assets/Spoke/front.png',
       desc: 'You’re fearless, bold, and thrive in chaos — Spoke would be proud.'
     };
