@@ -4,10 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Unstable Universe — Home</title>
+  <title>Unstable Universe — Minigames</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
     rel="stylesheet">
@@ -26,19 +24,19 @@
           <div class="subtitle">Given one Chance, What Life will You Choose to Live?</div>
         </div>
       </div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active nav-link">Home</a></li>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active nav-link">Home</a></li>
         <li><a href="characters.html" class="nav-link">Characters</a></li>
         <li><a href="episodes.html" class="nav-link">Episodes</a></li>
         <li><a href="minigames.html" class="nav-link">Which Character Are You?</a></li>
         <li><a href="creators.html" class="nav-link">Creators</a></li>
         <li><a href="abtwebsitecreators.html" class="nav-link">Website Creators</a></li>
-      </ul>
-    </nav>
+
+        </ul>
+      </nav>
     </div>
-  </header>
+  </header> 
 
   <main>
     <section class="hero slide-up">
@@ -96,6 +94,34 @@
   <audio id="bg-music" loop>
   <source src="assets/music/dark-trailer-461860.mp3" type="audio/mpeg">
 </audio>
+
+  <script>
+    const bgMusic = document.getElementById('bg-music');
+
+    // Load saved music time
+    const savedTime = localStorage.getItem('bgMusicTime');
+    if (savedTime) {
+      bgMusic.currentTime = parseFloat(savedTime);
+    }
+
+    bgMusic.play().catch(() => {});
+
+    // Save current time before leaving page
+    window.addEventListener('beforeunload', () => {
+      localStorage.setItem('bgMusicTime', bgMusic.currentTime);
+    });
+
+    function toggleMusic() {
+      if (bgMusic.paused) {
+        bgMusic.play();
+      } else {
+        bgMusic.pause();
+      }
+    }
+  </script>
+</body>
+
+</html>
 
 </body>
 
