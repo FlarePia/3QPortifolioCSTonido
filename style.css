@@ -1288,3 +1288,24 @@ body::before {
 
 }
 */
+
+.music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  font-family: Orbitron, sans-serif;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.music-btn:hover {
+  background: rgba(0, 255, 255, 0.25);
+}
+
+
+

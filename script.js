@@ -530,3 +530,20 @@ function filterItems(selectedTags) {
     }
   }
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+  const bgMusic = document.getElementById("bg-music");
+
+  // Set volume max
+  bgMusic.volume = 1.0;
+
+  // Try to play immediately
+  bgMusic.play().catch(err => {
+    console.log("Autoplay blocked, will start on first click.", err);
+
+    // Fallback: play on first click anywhere
+    document.body.addEventListener("click", () => {
+      bgMusic.play().catch(err => console.log("Play failed:", err));
+    }, { once: true });
+  });
+});
